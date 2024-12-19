@@ -1,0 +1,38 @@
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 15px;
+    gap: 10px;
+}
+
+#disp{
+    border: 5px solid grey;
+    height: 70px;
+    width: 350px;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: right;
+}
+
+button{
+    height: 50px;
+    width: 80px;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.numPad{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+#equalTo{
+    width: 165px;
+}
+
+
